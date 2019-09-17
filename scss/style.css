@@ -29,6 +29,18 @@ body {
 h1 {
   color: #a9288f;
   text-align: center;
-  font-size: 60px; }
+  font-size: 1.9em; }
+
+h2 {
+  color: #a9288f;
+  text-align: center;
+  font-size: 28em; }
+
+.icon__user, .icon__what-we-do, .icon__get-involved {
+  width: 30%;
+  color: #a9288f;
+  padding: 0em;
+  margin-left: 35%;
+  border: 1px solid fushia; }
 
 /*# sourceMappingURL=style.css.map */

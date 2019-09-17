@@ -1,7 +1,15 @@
-.icon__user{
-    width: 30%;
+.icon__user, .icon__what-we-do, .icon__get-involved{
     color: $primary;
-    padding: 0.2em;
-    margin-left: 35%;
+    font-size: 120px;
+    margin: 1%;
+    padding: 1%;
 
+
+}
+.icon-container {
+    text-align: center;
+
+}
+.fa-bars {
+    color: white;
 }

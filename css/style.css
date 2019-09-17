@@ -26,4 +26,35 @@ body {
   padding-top: 10px;
   padding-right: 10px; }
 
+h1 {
+  color: #a9288f;
+  text-align: center;
+  font-size: 1.9em; }
+
+h2 {
+  color: #a9288f;
+  text-align: center;
+  font-size: 1.8em; }
+
+.icon__user, .icon__what-we-do, .icon__get-involved {
+  color: #a9288f;
+  font-size: 120px;
+  margin: 1%;
+  padding: 1%; }
+
+.icon-container {
+  text-align: center; }
+
+.fa-bars {
+  color: white; }
+
+.blurb {
+  padding: 0.1em;
+  margin: 0.1em; }
+
+.blurb-container {
+  margin: 0.8em;
+  padding: 0.5em;
+  background-color: #FBF1EC; }
+
 /*# sourceMappingURL=style.css.map */
