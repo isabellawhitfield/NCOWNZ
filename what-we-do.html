@@ -12,8 +12,56 @@
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
 
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+// Add the new slick-theme.css if you want the default styling
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
   <!-- CSS -->
   <link rel="stylesheet" href="css/style.css" type="text/css">
+  <style type="text/css">
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .slider {
+        width: 50%;
+        margin: 100px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+    
+    .slick-active {
+      opacity: .5;
+    }
+
+    .slick-current {
+      opacity: 1;
+    }
+  </style>
 </head>
 <body>
   <!-- Header -->
@@ -26,9 +74,41 @@
     </div>
   </header>
 
-  <h1>What we do page</h1>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum asperiores ipsum repellendus nam iste in perferendis reprehenderit doloremque accusamus nostrum!</p>
-  <img src="Four-Areas-of-Inequality.jpg" alt="Four areas of inequality">
+  <h1>What we do </h1>
+  <p class="blurb_what-we-do"><b>Our work targets four areas of inequality that prevent New Zealand from achieving a Gender Equal NZ. </b><br><br><b>Safety and health –</b> domestic and sexual violence, sexual and reproductive health, access to healthcare including abortion, and mental health issues
+    <br><br><b>Economic independence –</b> poverty rates including minimum wage, occupational segregation, workplace participation, childcare, caregiving and unpaid work, and pay equity issues
+    <br><br><b>Education – </b>gender roles and subjects, early childhood education supporting diversity, consent and healthy relationships programmes, and sexual and gender diversity
+    <br><br><b>Influence and decision making – </b>rates of women in management, governance, leadership and decision-making roles in the political, private and voluntary sectors
+     </p>
+  <img src="images/Four-Areas-of-Inequality.jpg" alt="Four areas of inequality">
+  
+  <h2>Gender Equal NZ Campaign</h2>
+  <p class="blurb_what-we-do"><b>Our kaupapa: Making equality, reality.</b><br><br>
+    Where we once led in gender equality, New Zealand has now slipped to be ranked at 7th in the world. Did you know New Zealand has the worst reported rates of sexual and domestic violence in the whole OECD? Or that about one third of our MPs are women? 
+    Gender inequality negatively affects businesses, government, families and the community – as well as individuals of all genders.
+    Discrimination doesn’t happen in isolation – and we need to recognise the negative effects of homophobia, transphobia, racism and other forms of oppression, along with sexism.<br><br>
+    As Kate Sheppard famously said ‘All that separates whether of race, class, creed or sex is inhuman and must be overcome’.
+    It’s time for all of us to question the status quo. Most of the time, we’re given two options – you’re either a man or a woman. And being a man or a woman comes with these stereotypes about being a “real man” or a “real woman”. A real man is strong, 
+    earning lots and getting laid – right? A real woman is beautiful, a good cook and someone who looks after others – right? Well – not quite.
+    The unequal value attached to femininity and masculinity – we usually see this reduced to women and men – leads to unequal division of power, resources and therefore opportunities.
+    These ideas about what makes a “real man” or a “real woman” are limiting for all of us.<br><br>
+    
+    They don’t allow most people to express all of who we are.  The reality is that most people have both characteristics that are seen as more masculine and characteristics that are seen as more feminine, and that’s just fine.
+    We know that 3.7% of secondary school students describe themselves as trans or “not sure” of their gender. Which means about 1 in 25 of our young people don’t feel like the gender they were ascribed at birth tells the whole story of who they are.
+    If we could break down these rigid expectations around gender, we’d create more room for everyone. Getting rid of the norms that cause gendered violence, pay inequality, the devaluing of caregiving work and parenting and inequalities in leadership roles – 
+    just to name a few outcomes – would change our world for the better.<br><br>We are actively challenging gender attitudes in two ways firstly through the Gender Dashboard: The Gender Dashboard collects, collates and analyses data to build a shared understanding of
+    the status of all women in Aotearoa New Zealand. We work with expert partners to illustrate key areas of inequality from an intersectional perspective. Over the next three years, we will release data stories that illustrate gender inequalities in the Four 
+    Key Areas of Inequality: Economic Independence, Safety and Health, Education, and Influence and Decision Making. We’re starting with Economic Independence.<br><br> Secondly through the Gender Attitudes Survey: The Gender Dashboard collects, collates and analyses 
+    data to build a shared understanding of the status of all women in Aotearoa New Zealand. We work with expert partners to illustrate key areas of inequality from an intersectional perspective. Over the next three years, we will release data stories that illustrate
+    gender inequalities in the Four Key Areas of Inequality: Economic Independence, Safety and Health, Education, and Influence and Decision Making. We’re starting with Economic Independence.
+    </p>
+  
+<div class="infographics">
+  <div><img src="images/economic.jpg"></div>
+  <div><img src="images/influence.jpg"></div>
+  <div><img src="images/safety.jpg"></div>
+  <div><img src="images/education.jpg"></div>
+</div>
   <ul>
     <li><a href="index.html">Home</a></li>
     <li><a href="who-we-are.html">Who we are</a></li>
@@ -36,11 +116,27 @@
     <li><a href="get-involved.html">Get involved</a></li>
     <li><a href="donate.html">Donate</a></li>
   </ul>
+  <footer>
+    <div class="footer_social-media">
+      <i class="fab fa-facebook"></i>
+    </div>
+    <div class="footer_social-media">
+      <i class="fab fa-twitter-square"></i>
+    </div>
+    
 
+</footer>
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 
   <!-- JavaScript -->
   <script src="js/script.js"></script>
+
+
+  
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+
 </body>
 </html>

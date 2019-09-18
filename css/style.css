@@ -58,12 +58,20 @@ h2 {
 .blurb-container {
   margin: 0.8em;
   padding: 0.5em;
-  background-color: #FBF1EC; }
+  background-color: #FBF1EC;
+  letter-spacing: 0.0625em; }
 
 .who-we-are {
   margin: 1em;
   padding: 0.8em;
-  background-color: #FBF1EC; }
+  background-color: #FBF1EC;
+  letter-spacing: 0.0625em; }
+
+.blurb_what-we-do {
+  margin: 1em;
+  padding: 0.8em;
+  background-color: #FBF1EC;
+  letter-spacing: 0.0625em; }
 
 footer {
   background-color: #a9288f;
