@@ -1,7 +1,9 @@
 .header {
   background-color: $primary;
   height: 50px;
+}
 
+.header__container {
   display: flex;
   justify-content: space-between;
   padding: 5px;

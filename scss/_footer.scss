@@ -1,16 +1,12 @@
-footer{
-    background-color: $primary;
-    height: 80px;
+footer {
+  background-color: $primary;
+  height: 80px;
+  text-align: center;
+  padding-top: 20px;
 }
 
-
-.footer_social-media {
-    text-align: center;
-    
-}
-
-.fa-facebook, .fa-twitter-square {
-    color: white;
-    font-size: 40px;
-    
+.footer__icon {
+  color: white;
+  font-size: 40px;
+  margin-right: 10px;
 }

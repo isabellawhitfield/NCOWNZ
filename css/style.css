@@ -11,9 +11,29 @@ img {
 body {
   font-family: 'Roboto', sans-serif; }
 
+.infographics {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px; }
+  @media (min-width: 700px) {
+    .container {
+      width: 700px; } }
+  @media (min-width: 1000px) {
+    .container {
+      width: 1000px; } }
+
 .header {
   background-color: #a9288f;
-  height: 50px;
+  height: 50px; }
+
+.header__container {
   display: flex;
   justify-content: space-between;
   padding: 5px; }
@@ -40,7 +60,8 @@ h2 {
   color: #a9288f;
   text-align: center;
   font-size: 1.8em;
-  margin-top: 0.2em; }
+  margin-top: 0.2em;
+  margin-bottom: 0.5em; }
 
 .icon__user, .icon__what-we-do, .icon__get-involved {
   color: #a9288f;
@@ -51,37 +72,61 @@ h2 {
 .icon-container {
   text-align: center; }
 
+.hero-image {
+  width: 100%; }
+
+.article-image {
+  width: 100%; }
+
 .blurb {
-  padding: 0.1em;
-  margin: 0.1em; }
-
-.blurb-container {
-  margin: 0.8em;
-  padding: 0.5em;
-  background-color: #FBF1EC;
-  letter-spacing: 0.0625em; }
-
-.who-we-are {
-  margin: 1em;
   padding: 0.8em;
   background-color: #FBF1EC;
-  letter-spacing: 0.0625em; }
+  letter-spacing: 0.0625em;
+  margin-bottom: 0.8em; }
 
-.blurb_what-we-do {
-  margin: 1em;
-  padding: 0.8em;
-  background-color: #FBF1EC;
-  letter-spacing: 0.0625em; }
+.blurb__paragraph {
+  margin-bottom: 1em; }
+
+.blurb__heading {
+  margin-top: 1em;
+  margin-bottom: 0.5em; }
 
 footer {
   background-color: #a9288f;
-  height: 80px; }
+  height: 80px;
+  text-align: center;
+  padding-top: 20px; }
 
-.footer_social-media {
-  text-align: center; }
-
-.fa-facebook, .fa-twitter-square {
+.footer__icon {
   color: white;
-  font-size: 40px; }
+  font-size: 40px;
+  margin-right: 10px; }
+
+.slider {
+  width: 50%;
+  margin: 100px auto; }
+
+.slick-slide img {
+  width: 100%; }
+
+.slick-prev:before,
+.slick-next:before {
+  color: #a9288f; }
+
+.slick-slide {
+  margin: 0px 20px;
+  transition: all ease-in-out .3s;
+  opacity: .2;
+  height: initial; }
+
+.slick-active {
+  opacity: .5; }
+
+.slick-current {
+  opacity: 1; }
+
+.slick-next, .slick-prev {
+  width: 40px;
+  height: 40px; }
 
 /*# sourceMappingURL=style.css.map */

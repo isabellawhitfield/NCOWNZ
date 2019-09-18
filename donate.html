@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
   <!-- Meta information -->
   <meta charset="UTF-8">
@@ -14,46 +15,55 @@
 
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
+  <!-- Slick -->
+  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+  <!-- Add the new slick-theme.css if you want the default styling -->
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+
   <!-- CSS -->
   <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
+
 <body>
   <!-- Header -->
   <header class="header">
-    <div class="header__logo">
-      <img src="https://www.ncwnz.org.nz/wp-content/uploads/2018/03/NCWNZ-Logo-NEW-1-300x97.png" alt="NCWNZ Logo">
-    </div>
-    <div class="header__menu">
-      <span class="fas fa-bars"></span>
+    <div class="header__container container">
+      <div class="header__logo">
+        <img src="https://www.ncwnz.org.nz/wp-content/uploads/2018/03/NCWNZ-Logo-NEW-1-300x97.png" alt="NCWNZ Logo">
+      </div>
+      <div class="header__menu">
+        <span class="fas fa-bars"></span>
+      </div>
     </div>
   </header>
 
-  <h1>Donate page</h1>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt sapiente deserunt veniam rerum explicabo, a ullam. Ea neque exercitationem quaerat!</p>
+  <div class="container">
+    <h1>Donate page</h1>
 
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="who-we-are.html">Who we are</a></li>
-    <li><a href="what-we-do.html">What we do</a></li>
-    <li><a href="get-involved.html">Get involved</a></li>
-    <li><a href="donate.html">Donate</a></li>
-  </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt sapiente deserunt veniam rerum explicabo, a ullam. Ea neque exercitationem quaerat!</p>
 
-  <footer>
-    <div class="footer_social-media">
-      <i class="fab fa-facebook"></i>
-    </div>
-    <div class="footer_social-media">
-      <i class="fab fa-twitter-square"></i>
-    </div>
-    
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="who-we-are.html">Who we are</a></li>
+      <li><a href="what-we-do.html">What we do</a></li>
+      <li><a href="get-involved.html">Get involved</a></li>
+      <li><a href="donate.html">Donate</a></li>
+    </ul>
+  </div>
 
-</footer>
+  <footer class="footer">
+    <i class="footer__icon fab fa-facebook"></i>
+    <i class="footer__icon fab fa-twitter-square"></i>
+  </footer>
 
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <!-- Slick -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
 
   <!-- JavaScript -->
   <script src="js/script.js"></script>
 </body>
+
 </html>

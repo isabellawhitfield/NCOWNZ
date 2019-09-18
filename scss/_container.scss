@@ -1,0 +1,15 @@
+.container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  @media (min-width: $tablet-breakpoint) {
+    width: $tablet-breakpoint;
+  }
+
+  @media (min-width: $desktop-breakpoint) {
+    width: $desktop-breakpoint;
+  }
+}
