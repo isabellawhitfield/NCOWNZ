@@ -3,7 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   list-style: none;
-  text-decoration: none; }
+  text-decoration: none;
+  letter-spacing: 0.0625em; }
 
 img {
   max-width: 100%; }
@@ -60,8 +61,12 @@ h2 {
   color: #a9288f;
   text-align: center;
   font-size: 1.8em;
-  margin-top: 0.2em;
-  margin-bottom: 0.5em; }
+  margin-top: 0.2em; }
+
+.maori {
+  color: FFc12E;
+  text-align: center;
+  font-style: italic; }
 
 .icon__user, .icon__what-we-do, .icon__get-involved {
   color: #a9288f;
@@ -81,7 +86,6 @@ h2 {
 .blurb {
   padding: 0.8em;
   background-color: #FBF1EC;
-  letter-spacing: 0.0625em;
   margin-bottom: 0.8em; }
 
 .blurb__paragraph {
