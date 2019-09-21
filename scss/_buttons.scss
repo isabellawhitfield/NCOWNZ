@@ -1,0 +1,18 @@
+.button {
+  background-color: $tertiary;
+  border: none;
+  color: white;
+  padding: 10px;
+  min-width: 100px;
+  font-size: 20px;
+  border-radius: 3px;
+  text-align: center;
+
+  &:hover {
+    background-color: darken($tertiary, 5%);
+  }
+}
+
+.button--with-margin {
+  margin-bottom: 30px;
+}
