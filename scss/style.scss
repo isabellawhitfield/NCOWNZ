@@ -1,6 +1,9 @@
 // Import variables first
 @import "variables";
 
+// Mixins
+@import "mixins";
+
 // General styles
 @import "reset";
 @import "typography";
@@ -12,6 +15,7 @@
 @import "heading";
 @import "icons";
 @import "image";
+@import "menu";
 @import "blurb";
 @import "footer";
 @import "slick";

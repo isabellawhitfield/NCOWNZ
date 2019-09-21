@@ -13,14 +13,14 @@ body {
   font-family: 'Roboto', sans-serif; }
 
 .infographics {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto; }
-
-.container {
-  display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 90%; }
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   padding-left: 10px;
   padding-right: 10px; }
   @media (min-width: 700px) {
@@ -83,12 +83,46 @@ h2 {
 .article-image {
   width: 100%; }
 
+.menu {
+  display: none;
+  position: fixed;
+  height: 100vh;
+  width: 75vw;
+  background-color: rgba(169, 40, 143, 0.9);
+  top: 0;
+  right: 0;
+  text-align: center; }
+  .menu.is-open {
+    display: block; }
+
+.menu__close-bar {
+  height: 50px; }
+  .menu__close-bar i {
+    float: right;
+    color: white;
+    font-size: 40px;
+    padding-top: 5px;
+    padding-right: 20px;
+    cursor: pointer; }
+
+.menu__list {
+  margin-bottom: 20px; }
+
+.menu__list-item {
+  margin-bottom: 12px; }
+
+.menu__link {
+  font-size: 30px;
+  color: white; }
+
 .blurb {
   padding: 0.8em;
   background-color: #FBF1EC;
+  margin-top: 0.6em;
   margin-bottom: 0.8em; }
 
 .blurb__paragraph {
+  margin-top: 1em;
   margin-bottom: 1em; }
 
 .blurb__heading {

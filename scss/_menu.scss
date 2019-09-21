@@ -1,0 +1,42 @@
+.menu {
+  display: none;
+  position: fixed;
+  height: 100vh;
+  width: 75vw;
+  background-color: rgba($primary, 0.9);
+  top: 0;
+  right: 0;
+  text-align: center;
+
+  &.is-open {
+    display: block;
+  }
+}
+
+.menu__close-bar {
+  height: $header-height;
+
+  i {
+    float: right;
+    color: white;
+    font-size: 40px;
+    padding-top: 5px;
+    padding-right: 20px;
+    cursor: pointer;
+  }
+}
+
+.menu__list {
+  margin-bottom: 20px;
+}
+
+.menu__list-item {
+  margin-bottom: 12px;
+}
+
+.menu__link {
+  font-size: 30px;
+  color: white;
+}
+
+.menu__social-icons {}
