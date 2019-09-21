@@ -29,7 +29,7 @@
   <header class="header">
     <div class="header__container container">
       <div class="header__logo">
-        <img src="https://www.ncwnz.org.nz/wp-content/uploads/2018/03/NCWNZ-Logo-NEW-1-300x97.png" alt="NCWNZ Logo">
+        <img src="images/NCWNZ-Logo.png" alt="NCWNZ Logo">
       </div>
       <div class="header__menu">
         <span class="fas fa-bars"></span>
@@ -57,10 +57,47 @@
   </nav>
 
   <div class="container">
-    <h1>Donate</h1>
-    <h3 class="maori">Hei mema</h3>
+    <h2>Become a member / donate</h2>
+    <h3 class="maori">Hei mema / hohe</h3>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt sapiente deserunt veniam rerum explicabo, a ullam. Ea neque exercitationem quaerat!</p>
+    <form class="form" action="#">
+      <div class="form__input">
+        <label for="donate_name">Full name</label>
+        <input id="donate_name" type="text">
+      </div>
+
+      <div class="form__input">
+        <label for="donate_email">Email address</label>
+        <input id="donate_email" type="email">
+      </div>
+
+      <div class="form__input">
+        <label for="donate_phone">Phone number</label>
+        <input id="donate_phone" type="tel">
+      </div>
+
+      <div class="form__input">
+        <label for="donate_address">Address</label>
+        <textarea id="donate_address" rows="5"></textarea>
+      </div>
+
+      <div class="form__input">
+        <label for="donate_amount">Amount ($)</label>
+        <input id="donate_amount" type="number">
+      </div>
+
+      <div class="form__input">
+        <label for="donate_membership"><input class="input--checkbox" id="donate_membership" type="checkbox"> I wish to become a member</label>
+
+        <p><em>If you wish to become a member your donation amount must be equal to or great than the membership fee of $60</em></p>
+      </div>
+
+
+
+      <div class="blurb__button">
+        <button class="button" type="submit">Confirm</button>
+      </div>
+    </form>
   </div>
 
   <footer class="footer">
